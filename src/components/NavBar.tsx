@@ -4,7 +4,7 @@ import Logo from '../../public/images/logo-pousada-vista-da-mantiqueira.png';
 
 export default function NavBar() {
   return (
-    <div className="flex py-8 gap-52 items-center">
+    <div className="flex py-8 justify-between items-center">
       <Image src={Logo} alt="Logo Nav Bar" width={100} height={100} />
       <div>
         <ol
