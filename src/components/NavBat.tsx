@@ -2,7 +2,7 @@ import Button from './ui/Button';
 
 export default function NavBar() {
   return (
-    <div className="flex py-8 px-30 gap-52 items-center">
+    <div className="flex py-8 px-15 gap-52 items-center">
       <h2 className="text-black">Logo</h2>
       <div>
         <ol
