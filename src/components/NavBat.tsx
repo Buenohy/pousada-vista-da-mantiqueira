@@ -10,10 +10,10 @@ export default function NavBar() {
         "
         >
           <li className="text-black">Home</li>
-          <li className="text-black">Explore</li>
-          <li className="text-black">Rooms</li>
-          <li className="text-black">About</li>
-          <li className="text-black">Contact</li>
+          <li className="text-black">Sobre</li>
+          <li className="text-black">Acomodações</li>
+          <li className="text-black">Atividades</li>
+          <li className="text-black">Contato</li>
         </ol>
       </div>
       <Button />
