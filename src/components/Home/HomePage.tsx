@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Button from '../ui/Button';
 
 export default function HomePage() {
@@ -16,7 +17,12 @@ export default function HomePage() {
         </h3>
         <Button />
       </div>
-      <div className="text-black">Image</div>
+      <Image
+        src="/public/images/home.jpg"
+        alt="Home Page Image"
+        width={500}
+        height={500}
+      />
     </div>
   );
 }
