@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Button from '../ui/Button';
+import ImageHome from '../../../public/images/home.jpg';
 
 export default function HomePage() {
   return (
@@ -18,10 +19,11 @@ export default function HomePage() {
         <Button />
       </div>
       <Image
-        src="/public/images/home.jpg"
+        src={ImageHome}
         alt="Home Page Image"
         width={500}
         height={500}
+        className="rounded-2xl"
       />
     </div>
   );
