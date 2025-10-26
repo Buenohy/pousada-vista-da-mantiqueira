@@ -9,7 +9,9 @@ export default function HomePage() {
     "
     >
       <div className="text-black">
-        <h2 className="text-primary mb-7">Paradise View</h2>
+        <h2 className="text-primary mb-7 text-4xl font-semibold">
+          Paradise View
+        </h2>
         <h2 className="text-black font-bold text-5xl text-balance mb-7">
           Hotel for every <br /> moment rich <br /> in emotion
         </h2>
