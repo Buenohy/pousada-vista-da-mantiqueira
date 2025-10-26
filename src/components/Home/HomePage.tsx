@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className="text-black">
         <h2 className="text-primary mb-7">Paradise View</h2>
         <h2 className="text-black font-bold text-5xl text-balance mb-7">
-          Hotel for every moment rich in emotion
+          Hotel for every <br /> moment rich <br /> in emotion
         </h2>
         <h3 className="text-black font-medium text-base mb-7">
           Every moment feels like the first time in paradise view
