@@ -21,8 +21,8 @@ export default function HomePage() {
       <Image
         src={ImageHome}
         alt="Home Page Image"
-        width={500}
-        height={500}
+        width={600}
+        height={600}
         className="rounded-2xl"
       />
     </div>

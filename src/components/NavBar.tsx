@@ -1,9 +1,11 @@
+import Image from 'next/image';
 import Button from './ui/Button';
+import Logo from '../../public/images/logo-pousada-vista-da-mantiqueira.png';
 
 export default function NavBar() {
   return (
     <div className="flex py-8 gap-52 items-center">
-      <h2 className="text-black">Logo</h2>
+      <Image src={Logo} alt="Logo Nav Bar" width={100} height={100} />
       <div>
         <ol
           className="flex gap-16
